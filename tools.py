@@ -38,11 +38,11 @@ def GetCooike():
 	    'Connection': 'close',
 	}
 
-	# data = 'username=1148202106%40qq.com&password=0c76d11516d2367dac0b406070044e46&questionid=5&answer=Lenovo&formhash=60de9e9a&loginsubmit=%E7%99%BB%E5%BD%95&redirect=https%3A%2F%2Fwww.t00ls.cc%2Farticles-64795.html&cookietime=2592000'
+	
 	data = f'username={userName}&password={userPassword}&questionid={userProblem}&answer={userAnswer}&formhash=60de9e9a&loginsubmit=%E7%99%BB%E5%BD%95&redirect=https%3A%2F%2Fwww.t00ls.cc%2Farticles-64795.html&cookietime=2592000'
 
 	response = requests.post('https://www.t00ls.cc/login.html', headers=headers, cookies=cookies, data=data,allow_redirects=False)
-	# cookies = requests.utils.dict_from_cookiejar(response.cookies)
+	
 	cookies = response.headers['Set-Cookie'].replace('httponly,','')
 	# print(response)
 	print('读取到Cookies：',cookies)
