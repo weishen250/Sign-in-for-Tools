@@ -24,4 +24,5 @@ Tools 吐司每日签到自动得TuBi + 高颜值微信机器人结果反馈
 
 #### 单次签到 tools.py
 ![image](https://user-images.githubusercontent.com/71580418/158095791-267967f7-c8f5-4a16-be46-74189498a6ec.png)
-![image](https://user-images.githubusercontent.com/71580418/158095624-522f082b-d0f3-4790-a942-81fb8845f912.png)
+![image](https://user-images.githubusercontent.com/71580418/158097355-1e7d1277-bac3-414b-9bea-96444fb27c8a.png)
+
