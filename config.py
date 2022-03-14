@@ -11,15 +11,14 @@ class Config:
 
         # 请输入用户名
         self.name = '1148202106@qq.com'
-        # self.name = '1Qiy777'
 
         # 请输入密码
-        self.password = '190214@aA'
-        # self.password = 'Yanght3670.'
+        self.password = '********'
+    
 
         # 请选择安全提问,填编号
-        self.problem = '5'
-        # self.problem = '5'
+        self.problem = '1'
+        
         # 1、母亲的名字
         # 2、爷爷的名字
         # 3、父亲出生的城市
@@ -29,8 +28,8 @@ class Config:
         # 7、驾驶执照的最后四位数字
 
         # 提问的答案
-        self.answer = 'Lenovo'
-        # self.answer = 'x7ti-s'
+        self.answer = '*****'
+        
 #################################################################
 
     def Password(self):
